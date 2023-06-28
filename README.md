@@ -9,7 +9,7 @@ A new Flutter project.
   project ':sign_in_with_apple' -> org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.50
 - solution : External Libraries /Flutter Plugins 에 google_sign_in_apple-3.3.0 파일에서 그래들이 1.3.50으로 설정돼 있어서 1.7.10으로 변경
 -> 곧바로 2nd Error 발생
-- 
+  
 ### 2nd Error
 - Suggestion: use a compatible library with a minSdk of at most 16,
   or increase this project's minSdk version to at least 19,
