@@ -3,21 +3,21 @@
 A new Flutter project.
 
 ## Error
-- 1st Error
+### 1st Error
 - The Android Gradle plugin supports only Kotlin Gradle plugin version 1.5.20 and higher.
   The following dependencies do not satisfy the required version:
   project ':sign_in_with_apple' -> org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.50
 - solution : External Libraries /Flutter Plugins 에 google_sign_in_apple-3.3.0 파일에서 그래들이 1.3.50으로 설정돼 있어서 1.7.10으로 변경
 -> 곧바로 2nd Error 발생
 - 
-- 2nd Error
+### 2nd Error
 - Suggestion: use a compatible library with a minSdk of at most 16,
   or increase this project's minSdk version to at least 19,
   or use tools:overrideLibrary="io.flutter.plugins.firebase.database" to force usage (may lead to runtime failures)
 - solution : instagram_clone\android\app\build.gradle 파일의 minSdkVersion 19 변경
 -> 곧바로 3rd Error 발생
 
-- 3rd Error
+### 3rd Error
 - Note: C:\Users\user\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-4.8.1\android\src\main\java\io\flutter\plugins\firebase\firestore\FlutterFirebaseFirestoreMessageCodec.java uses unchecked or unsafe operations.
   Note: Recompile with -Xlint:unchecked for details.
   ERROR:D8: Cannot fit requested classes in a single dex file (# methods: 131508 > 65536)
@@ -49,7 +49,7 @@ A new Flutter project.
   Exception: Gradle task assembleDebug failed with exit code 1
 - solution : instagram_clone\android\app\build.gradle 파일에 minSdkVersion 21 변경
 
-- 4th Error
+### 4th Error
 - firebase login 입력시 발생
 - firebase : 이 시스템에서 스크립트를 실행할 수 없으므로 C:\Program Files\nodejs\firebase.ps1 파일을 로드할 수 없습니다. 자세한 내용은 about_Execution_Policies(https://go.microsoft.com/fw
   link/?LinkID=135170)를 참조하십시오.
@@ -60,7 +60,7 @@ A new Flutter project.
     + FullyQualifiedErrorId : UnauthorizedAccess
 - solution : https://hellcoding.tistory.com/entry/VSCode-%EC%98%A4%EB%A5%98-%EC%9D%B4-%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%97%90%EC%84%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%A0-%EC%88%98-%EC%97%86%EC%9C%BC%EB%AF%80%EB%A1%9C
 
-- 5th Error
+### 5th Error
 - AndroidStudio Terminal, git bash, powershell에 입력시 발생
 - flutterfire 입력시 발생
 - flutterfire configure 입력시 발생
